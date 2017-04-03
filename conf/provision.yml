@@ -40,7 +40,7 @@ provision:
       hhvm-nginx/general: '*'
   php:
     configuration:
-      php/general       : '*'
+      php/general       : '(debian|ubuntu|centos|alpine)'
       php/ubuntu-12.04  : ubuntu-12.04
       php/alpine        : alpine-*
   php-apache:
