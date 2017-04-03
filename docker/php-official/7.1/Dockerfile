@@ -139,5 +139,6 @@ RUN /usr/local/bin/apt-install \
     && /opt/docker/bin/bootstrap.sh \
     && /usr/local/bin/docker-image-cleanup
 
+EXPOSE 9000
 ENTRYPOINT ["/opt/docker/bin/entrypoint.sh"]
 CMD ["supervisord"]
