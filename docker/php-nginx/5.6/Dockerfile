@@ -1,9 +1,9 @@
 #+++++++++++++++++++++++++++++++++++++++
-# Dockerfile for webdevops/php-nginx:debian-8
+# Dockerfile for webdevops/php-nginx:5.6
 #    -- automatically generated  --
 #+++++++++++++++++++++++++++++++++++++++
 
-FROM webdevops/php:debian-8
+FROM webdevops/php:5.6
 
 MAINTAINER info@webdevops.io
 LABEL vendor=WebDevOps.io
