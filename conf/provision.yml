@@ -81,6 +81,12 @@ provision:
       php-nginx/general : '*'
       php-dev/general   : '*'
       nginx-dev/general : '*'
+  php-official:
+    baselayout: on
+    configuration:
+      base/general     : '*'
+      base-app/general : '*'
+      php/general      : '*'
   postfix:
     configuration:
       postfix/general   : '*'
