@@ -43,12 +43,6 @@ provision:
       php/general       : '*'
       php/ubuntu-12.04  : ubuntu-12.04
       php/alpine        : alpine-*
-      # deploy php7 configuration to *-php7 containers
-      php/php7          :
-        - '*-php7'
-        - debian-9
-        - ubuntu-16.04
-        - ubuntu-16.10
   php-apache:
     configuration:
       apache/general    : '*'
@@ -87,6 +81,7 @@ provision:
       base/general     : '*'
       base-app/general : '*'
       php/general      : '*'
+      php/official     : '*'
   postfix:
     configuration:
       postfix/general   : '*'

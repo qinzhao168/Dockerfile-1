@@ -17,5 +17,7 @@
 
 {{ baseapp.debian() }}
 
+{{ php.official() }}
+
 {{ docker.entrypoint("/opt/docker/bin/entrypoint.sh") }}
 {{ docker.cmd("supervisord") }}
